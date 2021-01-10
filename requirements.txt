@@ -3,3 +3,5 @@ requests
 
 python-telegram-bot
 bs4
+
+lxml
