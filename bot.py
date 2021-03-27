@@ -23,6 +23,10 @@ def dl(update, context):
     if url.startswith('http'):
         The_link =  trans(url)
 
+    if The_link == "https://rapidleech.hashhackers.com//telegram.dog/BhadooCloud":
+        context.bot.send_message(chat_id=c_id,
+            text ="An Error occured")
+        return
     context.bot.send_message(chat_id=c_id,
             text =The_link )
 
