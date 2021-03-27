@@ -5,6 +5,7 @@
 ## Credits, and Thanks to
 
 #### The Developers of [rapidleach](https://rapidleech.hashhackers.com)
+### The Developers of [pyhon pelegram bot](https://github.com/python-telegram-bot/python-telegram-bot)
 
 ### Installation
 #### The Easy Way
