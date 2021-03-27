@@ -3,7 +3,7 @@
 # This is Simple Transload bot That  Can be deployed in Heroku
 
 ## Credits, and Thanks to
-#The Developers of ##[rapidleach](https://rapidleech.hashhackers.com)
+####The Developers of [rapidleach](https://rapidleech.hashhackers.com)
 
 ### Installation
 #### The Easy Way
@@ -21,7 +21,7 @@ cp sample_config.py config.py
 python bot.py
 ```
 
-- For FeedBack and #Suggestions, please feel free to say in [@Nahom_d](https://telegram.dog/Nahom_d)
+- For FeedBack and Suggestions, please feel free to say in [@Nahom_d](https://telegram.dog/Nahom_d)
 
 #### LICENSE
 - GPLv3
