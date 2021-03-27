@@ -4,7 +4,7 @@
 
 ## Credits, and Thanks to
 
-#### The Developers of ## [rapidleach](https://rapidleech.hashhackers.com)
+#### The Developers of [rapidleach](https://rapidleech.hashhackers.com)
 
 ### Installation
 #### The Easy Way
