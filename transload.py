@@ -5,7 +5,7 @@ import os
 
 from bs4 import BeautifulSoup as bs
 
-HOST_URL = os.environ.get["HOST_URL"]
+HOST_URL = "https://s2.rapidleech.gq"
 
 def trans(link):
 
