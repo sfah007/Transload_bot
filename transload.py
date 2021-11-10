@@ -4,6 +4,7 @@ from requests import post
 
 from bs4 import BeautifulSoup as bs
 
+HOST_URL = environ["HOST_URL"]
 
 def trans(link):
 
@@ -32,7 +33,7 @@ def trans(link):
         path = "/var/www/html/files"
         )
 
-    base = "https://twenty.rapidleech.gq/index.php"
+    base = f"{HOST_URL}/index.php"
 
 
     r = post(base,data=data,headers=headers,verify=False)
@@ -68,6 +69,6 @@ def trans(link):
 
    #print(r.text)
 
-    final_link = "https://twenty.rapidleech.gq"+d[-2]["href"]
+    final_link = f"{HOST_URL}"+d[-2]["href"]
 
     return final_link
