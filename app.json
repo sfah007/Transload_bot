@@ -15,7 +15,7 @@
     },
     "HOST_URL": {
       "description": "Website.",
-      "value": "https://s2.rapidleech.gq/index.php"
+      "value": "https://s2.rapidleech.gq"
   }
   },
   "addons": [
