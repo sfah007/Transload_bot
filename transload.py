@@ -1,10 +1,11 @@
 from requests import post
+import os
 #from requests_html import HTMLSession
 
 
 from bs4 import BeautifulSoup as bs
 
-HOST_URL = environ["HOST_URL"]
+HOST_URL = os.environ.get["HOST_URL"]
 
 def trans(link):
 
