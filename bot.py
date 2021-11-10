@@ -3,7 +3,7 @@ from transload import trans
 
 
 from telegram import ParseMode
-
+HOST_URL = environ["HOST_URL"]
 def start(update,context):
     name = update.message.chat.first_name
     chat_id = update.message.chat.id
@@ -23,7 +23,7 @@ def dl(update, context):
     if url.startswith('http'):
         The_link =  trans(url)
 
-    if The_link == "https://rapidleech.hashhackers.com//telegram.dog/BhadooCloud":
+    if The_link == f"{HOST_URL}//telegram.dog/BhadooCloud":
         context.bot.send_message(chat_id=c_id,
             text ="An Error occured")
         return
