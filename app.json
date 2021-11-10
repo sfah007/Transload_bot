@@ -11,11 +11,7 @@
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
       "value": ""
-    },
-    "HOST_URL": {
-      "description": "Website.",
-      "value": "https://s2.rapidleech.gq"
-  }
+    }
   },
   "addons": [
   ],
