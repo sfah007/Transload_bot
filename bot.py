@@ -3,7 +3,7 @@ from transload import trans
 import os
 
 from telegram import ParseMode
-HOST_URL = "https://s2.rapidleech.gq"
+HOST_URL = "https://twenty.rapidleech.gq"
 def start(update,context):
     name = update.message.chat.first_name
     chat_id = update.message.chat.id
